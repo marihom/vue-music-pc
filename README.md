@@ -1,4 +1,5 @@
-# vue-music
+[![Build Status](https://travis-ci.org/jawnwa22/vue-music-pc.svg?branch=master)](https://travis-ci.org/jawnwa22/vue-music-pc)
+# vue-music-pc
 
 ## Project setup
 ```
