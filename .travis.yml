@@ -11,7 +11,7 @@ before_install:
   -in deploy_rsa.enc -out deploy_rsa -d
 - eval "$(ssh-agent -s)"
 - chmod 600 deploy_rsa
- ssh-add deploy_rsa
+- ssh-add deploy_rsa
 install:
 - yarn
 before_script:
