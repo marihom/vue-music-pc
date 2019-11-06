@@ -36,12 +36,15 @@
 </template>
 
 <script>
-import nav from "./nav.js";
 export default {
-    data() {
-        return {
-            nav
+    props: {
+        nav: {
+            type: Array,
+            default: () => []
         }
+    },
+    data() {
+        return {};
     }
-}
+};
 </script>
