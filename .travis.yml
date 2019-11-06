@@ -17,4 +17,4 @@ install:
 before_script:
 script: yarn run build
 after_success:
-    - rsync -az --delete ./dist/* root@47.102.143.46:/home/html
+    - rsync -az --delete ./dist/* root@47.102.143.46:/home/html/music
