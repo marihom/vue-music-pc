@@ -3,7 +3,7 @@
  * @since: 2019-10-23 19:44:19
  * @Author: jawnwa22
  * @LastEditors: jawnwa22
- * @LastEditTime: 2019-11-06 00:52:51
+ * @LastEditTime: 2019-11-06 22:46:28
  */
 
 const pages = {
@@ -21,6 +21,7 @@ const pages = {
 
 // 匹配入口的url
 const devServer = {
+    publicPath: "/music/",
     historyApiFallback: {
         rewrites: [
             { from: /^\/music\/admin/, to: '/admin.html' },
